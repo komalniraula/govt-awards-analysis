@@ -36,6 +36,26 @@ To support visualization:
 
 ---
 
+## Model Performance
+
+The tuned **XGBoost** model achieved:
+
+- **Accuracy:** 84%  
+- **ROC-AUC:** 0.892  
+- **PR-AUC:** 0.887  
+
+### Example Visualizations
+
+Optimization history and feature importance are shown below:
+
+![Optimization History](assets/optimization_history.png)  
+*Optuna optimization history across trials*
+
+![Hyperparameter Importance](assets/hyperparam_importance.png)  
+*Relative importance of tuned hyperparameters*
+
+---
+
 ## Purpose
 
 The broader goal of this project is to study how **government awards influence firm performance and potential labor market outcomes.**  
@@ -54,6 +74,4 @@ This is **Part 1: Contract Lapse Prediction** in a larger multi-part research pr
 ## Next Steps
 Future parts of this repository will extend the analysis to:
 - **Firm performance outcomes** (Compustat linkages)  
-- **Labor market impacts** (BLS/industry-level data)  
-
----
+- **Labor market impacts** (BLS/industry-level data) 
